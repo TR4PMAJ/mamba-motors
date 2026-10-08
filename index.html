@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mamba Motors — premium pre-owned vehicles, transparent pricing, and a buying experience built around you.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Mamba Motors | Drive Different.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar"><span>PRE-OWNED. HANDPICKED. READY TO MOVE.</span><a href="#contact">Get in touch →</a></div>
+
+  <header class="header" id="header">
+    <a class="logo" href="#home" aria-label="Mamba Motors home">
+      <span class="logo-mark">M</span><span>MAMBA<span class="lime"> MOTORS</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="#inventory">Inventory</a>
+      <a href="#why">Why Mamba</a>
+      <a href="#financing">Financing</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Talk to us</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> THE MAMBA STANDARD</p>
+        <h1>DRIVE<br><em>DIFFERENT.</em></h1>
+        <p class="hero-copy">A better way to buy your next ride. Carefully selected vehicles, straightforward pricing, and zero-pressure service.</p>
+        <div class="hero-actions">
+          <a class="btn btn-lime" href="#inventory">Explore inventory <span>↗</span></a>
+          <a class="btn btn-ghost" href="#contact">Book a visit</a>
+        </div>
+      </div>
+      <div class="hero-stat"><strong>01</strong><span>Curated<br>Inventory</span></div>
+      <div class="scroll-cue">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Mamba Motors highlights">
+      <div>QUALITY VEHICLES <b>✦</b> NO PRESSURE <b>✦</b> FAIR DEALS <b>✦</b> REAL PEOPLE <b>✦</b> QUALITY VEHICLES <b>✦</b> NO PRESSURE <b>✦</b> FAIR DEALS <b>✦</b> REAL PEOPLE <b>✦</b></div>
+    </section>
+
+    <section class="inventory section" id="inventory">
+      <div class="section-head">
+        <div><p class="eyebrow"><span></span> IN THE SPOTLIGHT</p><h2>FIND YOUR<br><em>NEXT MOVE.</em></h2></div>
+        <a href="#contact" class="text-link">View all vehicles <span>↗</span></a>
+      </div>
+      <div class="cars">
+        <article class="car-card featured">
+          <div class="car-image car-one"><span class="stock">FEATURED</span><button class="heart" aria-label="Favorite vehicle">♡</button></div>
+          <div class="car-info"><div><p class="car-year">2024 • 18,240 MILES</p><h3>BMW M4 COMPETITION</h3></div><strong class="price">$74,995</strong></div>
+          <div class="car-meta"><span>Automatic</span><span>3.0L Turbo</span><span>RWD</span></div>
+        </article>
+        <article class="car-card">
+          <div class="car-image car-two"><span class="stock">JUST IN</span><button class="heart" aria-label="Favorite vehicle">♡</button></div>
+          <div class="car-info"><div><p class="car-year">2023 • 26,810 MILES</p><h3>FORD MUSTANG GT</h3></div><strong class="price">$41,490</strong></div>
+          <div class="car-meta"><span>Manual</span><span>5.0L V8</span><span>RWD</span></div>
+        </article>
+        <article class="car-card">
+          <div class="car-image car-three"><span class="stock">LOW MILES</span><button class="heart" aria-label="Favorite vehicle">♡</button></div>
+          <div class="car-info"><div><p class="car-year">2022 • 14,105 MILES</p><h3>TOYOTA 4RUNNER TRD PRO</h3></div><strong class="price">$46,995</strong></div>
+          <div class="car-meta"><span>Automatic</span><span>4.0L V6</span><span>4WD</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement" id="why">
+      <div class="statement-number">02</div>
+      <div>
+        <p class="eyebrow"><span></span> WHY MAMBA</p>
+        <h2>NO GAMES.<br><em>JUST GOOD CARS.</em></h2>
+        <p class="statement-copy">Buying a car shouldn't feel like a negotiation marathon. We keep the process simple, show you what matters, and let the vehicle do the talking.</p>
+        <div class="benefits">
+          <div><b>01</b><h3>HANDPICKED</h3><p>Every vehicle earns its place in our inventory.</p></div>
+          <div><b>02</b><h3>TRANSPARENT</h3><p>Clear pricing and honest answers from day one.</p></div>
+          <div><b>03</b><h3>NO PRESSURE</h3><p>Take your time. The right car is worth it.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="finance section" id="financing">
+      <div class="finance-copy">
+        <p class="eyebrow"><span></span> FINANCING</p>
+        <h2>MAKE IT<br><em>YOUR OWN.</em></h2>
+        <p>We work with a range of financing options to help make your next vehicle fit your budget. Start the conversation before you ever step through the door.</p>
+        <a class="btn btn-lime" href="#contact">Start an application <span>↗</span></a>
+      </div>
+      <div class="finance-panel">
+        <div class="panel-top"><span>PAYMENT ESTIMATOR</span><span class="lime">01 / 03</span></div>
+        <label>VEHICLE PRICE <output id="priceOut">$35,000</output></label>
+        <input id="price" type="range" min="10000" max="100000" step="500" value="35000">
+        <label>DOWN PAYMENT <output id="downOut">$5,000</output></label>
+        <input id="down" type="range" min="0" max="30000" step="500" value="5000">
+        <div class="estimate"><span>EST. MONTHLY</span><strong id="payment">$613</strong><small>72 mo. at 7.9% APR</small></div>
+        <p class="fine">Estimate only. Actual rates, terms, taxes and fees vary.</p>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-photo"></div>
+      <div class="about-copy">
+        <p class="eyebrow"><span></span> THE MAMBA WAY</p>
+        <h2>BUILT FOR PEOPLE<br>WHO <em>LOVE CARS.</em></h2>
+        <p>Mamba Motors started with a simple idea: the car-buying experience could be better. Less back-and-forth. More attention to the actual vehicle. A team that remembers you're a person, not a number.</p>
+        <p>Whether you're after something practical for Monday morning or something that makes you take the long way home, we're here to help you find it.</p>
+        <a class="text-link" href="#contact">Meet the team <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div>
+        <p class="eyebrow"><span></span> LET'S TALK</p>
+        <h2>READY TO<br><em>MOVE?</em></h2>
+        <p class="contact-copy">Have a vehicle in mind, want to trade, or just have a question? Send us a message and we'll get back to you.</p>
+        <div class="contact-details"><a href="tel:+15555555555">555-555-5555</a><a href="mailto:hello@mambamotors.com">hello@mambamotors.com</a><span>Mon–Sat • 9AM–7PM</span></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="field-row"><label><span>YOUR NAME</span><input required type="text" placeholder="John Smith"></label><label><span>PHONE</span><input required type="tel" placeholder="(555) 555-5555"></label></div>
+        <label><span>EMAIL</span><input required type="email" placeholder="you@email.com"></label>
+        <label><span>WHAT CAN WE HELP WITH?</span><select><option>I'm interested in a vehicle</option><option>I want to trade my vehicle</option><option>Financing question</option><option>General question</option></select></label>
+        <label><span>MESSAGE</span><textarea rows="4" placeholder="Tell us what you're looking for..."></textarea></label>
+        <button class="btn btn-lime" type="submit">Send message <span>↗</span></button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main"><a class="logo" href="#home"><span class="logo-mark">M</span><span>MAMBA<span class="lime"> MOTORS</span></span></a><p>Drive different.</p><div class="footer-links"><a href="#inventory">Inventory</a><a href="#financing">Financing</a><a href="#about">About</a><a href="#contact">Contact</a></div></div>
+    <div class="footer-bottom"><span>© 2026 Mamba Motors. All rights reserved.</span><span>Website design by Lynx & Co. Web Studio</span></div>
+    <div class="demo-note">PROMOTIONAL DEMO — MAMBA MOTORS WEBSITE CONCEPT. THIS WEBSITE AND BUSINESS INFORMATION SHOWN HERE MAY BE FICTIONAL.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
